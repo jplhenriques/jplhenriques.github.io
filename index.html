@@ -19,6 +19,25 @@
             border-radius: 0.5em;
             box-shadow: 2px 3px 7px 2px rgba(0,0,0,0.02);
         }
+        .card {
+          box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+          transition: 0.3s;
+          width: 300px;
+          border-radius: 5px;
+        }
+        
+        .card:hover {
+          box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+        }
+        
+        .container {
+          padding: 16px;
+        }
+        
+        img {
+          border-radius: 5px 5px 0 0;
+        }
+
         a:link, a:visited {
             color: #38488f;
             text-decoration: none;
@@ -37,5 +56,12 @@
           <p>Under construction...</p>
           <p><a href="CV_ptBR_Joao_Pedro_Henriques.set.2024.pdf" download>Download my Resume</p>
       </div>
+      <div class="card">
+        <img src="your-image.jpg" alt="Avatar" style="width:100%">
+          <div class="container">
+            <h4><b>Your Name</b></h4>
+            <p>Your Profession</p>
+          </div>
+        </div>
     </body>
 </html>
