@@ -31,7 +31,7 @@ document.addEventListener('DOMContentLoaded', function() {
                 altText: 'Detalhe de maquiagem nos olhos'
             },
             {
-                imgSrc: 'https://images.unsplash.com/photo-1615211575037-1846b43de1b2?q=80&w=870&auto=format&fit=crop',
+                imgSrc: 'https://www.instagram.com/p/Cp26hWCLSsb/?igsh=cGxzMDM5czI3eDR6',
                 postUrl: '#',
                 altText: 'Noiva com maquiagem completa'
             }
