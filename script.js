@@ -26,12 +26,12 @@ document.addEventListener('DOMContentLoaded', function() {
                 altText: 'Maquiagem profissional em modelo'
             },
             {
-                imgSrc: 'https://images.unsplash.com/photo-1606249613612-875f1cb35436?q=80&w=870&auto=format&fit=crop',
+                imgSrc: 'images/olhos.png',
                 postUrl: '#',
                 altText: 'Detalhe de maquiagem nos olhos'
             },
             {
-                imgSrc: 'https://www.instagram.com/p/Cp26hWCLSsb/?igsh=cGxzMDM5czI3eDR6',
+                imgSrc: 'images/noiva.png',
                 postUrl: '#',
                 altText: 'Noiva com maquiagem completa'
             }
