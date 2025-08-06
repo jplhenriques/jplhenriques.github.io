@@ -290,6 +290,45 @@ main {
     font-size: 2rem;
 }
 
+/* --- PÁGINA SOBRE MIM --- */
+.about-section {
+    padding: 60px 0;
+}
+
+.about-grid {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 30px;
+    align-items: center;
+}
+
+.about-photo {
+    width: 100%;
+    border-radius: 8px;
+    box-shadow: 0 8px 25px rgba(0,0,0,0.08);
+}
+
+.about-text h2 {
+    font-size: 3rem;
+    margin-bottom: 0.5rem;
+}
+
+.about-text .about-subtitle {
+    font-size: 1.1rem;
+    font-weight: 300;
+    color: var(--primary-color);
+    margin-bottom: 1.5rem;
+    line-height: 1.4;
+}
+
+.about-text p {
+    margin-bottom: 1rem;
+}
+
+.about-text .btn {
+    margin-top: 1rem;
+}
+
 /* --- FOOTER --- */
 .main-footer {
     background-color: var(--secondary-color);
@@ -330,5 +369,10 @@ main {
     
     .contact-grid {
         grid-template-columns: 2fr 1fr;
+    }
+
+    .about-grid {
+    grid-template-columns: 1fr 2fr; /* Foto ocupa 1 parte, texto 2 partes */
+    gap: 50px;
     }
 }
